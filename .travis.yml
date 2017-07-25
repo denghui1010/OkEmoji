@@ -16,13 +16,20 @@ jdk:
 
 sudo: false
 
+before_install:
+  - pip install --user codecov
+
+install: true
+
 script: 'travis_retry ./gradlew build'
 
 after_success:
-- ./gradlew jacocoTestReport coveralls
+  - ./gradlew jacocoTestReport coveralls
+  - codecov
 
 before_cache:
   - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+
 cache:
   directories:
     - $HOME/.gradle/caches/
