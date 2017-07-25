@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="emojiShowSmall">70dp</dimen>
+    <dimen name="emojiShowLarge">100dp</dimen>
+    <dimen name="emojiVerticalSpacing">4dp</dimen>
+    <dimen name="emojiHorizontalSpacing">4dp</dimen>
+    <dimen name="emojiPanelHeight">118dp</dimen>
+    <dimen name="emojiSizeSmall">30dp</dimen>
+    <dimen name="emojiSizeBig">45dp</dimen>
+    <dimen name="emojiRowHeight">30dp</dimen>
+    <dimen name="pointLayoutHeight">6dp</dimen>
+</resources>
